@@ -1,0 +1,10 @@
+# macOS / system
+.DS_Store
+.fuse_hidden*
+
+# PDF exports (not part of the website)
+*.pdf
+PDF/
+
+# deploy scratch
+deploy/
