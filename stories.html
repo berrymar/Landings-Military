@@ -25,15 +25,37 @@
     <button class="nav-toggle" aria-label="Toggle menu" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
     <nav class="main-nav" id="nav">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="history.html">History</a></li>
-        <li><a href="what-we-do.html">What We Do</a></li>
-        <li><a href="supported-programs.html">Programs</a></li>
-        <li><a href="scholarships.html">Scholarships</a></li>
-        <li><a href="sponsors.html">Sponsors</a></li>
+        <li class="has-dropdown">
+          <a href="index.html">Home</a>
+          <ul class="dropdown">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="what-we-do.html">What We Do</a></li>
+            <li><a href="scholarships.html">Scholarships</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+            <li><a href="benefactors.html">Benefactors</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="stories.html">Stories</a></li>
+            <li><a href="apply.html">Get Help</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="what-we-do.html">What We Do</a>
+          <ul class="dropdown">
+            <li><a href="supported-programs.html">Programs</a></li>
+            <li><a href="scholarships.html">Scholarships</a></li>
+            <li><a href="stories.html">Stories</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="sponsors.html">Sponsors</a>
+          <ul class="dropdown">
+            <li><a href="sponsors.html">Current Sponsors</a></li>
+            <li><a href="become-a-sponsor.html">Become a Sponsor</a></li>
+          </ul>
+        </li>
+        <li><a href="benefactors.html">Benefactors</a></li>
         <li><a href="events.html">Events</a></li>
-        <li><a href="stories.html" class="active">Stories</a></li>
         <li><a href="apply.html">Get Help</a></li>
         <li><a href="donate.html" class="btn-donate">Donate</a></li>
       </ul>
@@ -106,6 +128,8 @@
           <li><a href="supported-programs.html">Supported Programs</a></li>
           <li><a href="scholarships.html">Scholarship Program</a></li>
           <li><a href="sponsors.html">Our Sponsors</a></li>
+          <li><a href="become-a-sponsor.html">Become a Sponsor</a></li>
+          <li><a href="benefactors.html">Benefactors</a></li>
           <li><a href="events.html">Upcoming Events</a></li>
           <li><a href="stories.html">Stories</a></li>
           <li><a href="apply.html">Get Help</a></li>
