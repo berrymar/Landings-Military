@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lmfrf.vercel.app/sitemap.xml
+Sitemap: https://lmfrf.org/sitemap.xml
